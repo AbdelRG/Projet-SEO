@@ -1,0 +1,13 @@
+Catégorie,Problème identifié,Explication du problème,Bonne pratique à adopter,Action recommandée,Référence,n°
+Accessibilité, Titre  non pertinant pour le site,"Le site a pour titre "".""",Titre obligatoire et pertinant,TRUE,Check-list MDN,1
+Accessibilité,3 images  non responsive ,les images ne sont pas adapté a tout les format d'écran,Avoir des images responsives qui s'adapte a la taille de l'ecran de l'utilisateur,,Check-list MDN,2
+Accessibilité,3 images contenant du texte avec une description non adapté,le texte des images et non lisible pour les utilisateur malvoyant et la description des images n' est pas pertinante pour ceux ci,Remplacer les images contenant un texte uniquement par le texte contenu dans l'image,TRUE,Check-list MDN,3
+Performance,Certaines images sont trop volumineuse,Certaines images ont un format non adapté,Ne pas utiliser d'image trop volumineuse,TRUE,Google lighthouse,4
+Accessibilité,Contraste de couleur non adapté,le ratio de certaines couleur n est pas conforme aux exigences du niveau AA du WCAG 2.1,Avoir un ratio conforme sur les contrastes,TRUE,Check-list MDN,5
+Accessibilité,Pas de langue pour le site,le site n' a pas de langue en paramètre,Avoir une langue pour le site dans le code source,TRUE,Google lighthouse,6
+Accessibilité,Ordre des titres non pertinent,Certains éléments comme les titre ont un ordre a respecter un h2 ne peut pas figurer apres un h3,Avoir un ordre logique et rationnel pour les éléments du site,TRUE,Check-list MDN,7
+Accessibilité,Les lien n'ont pas de titre descriptif,Les utilisateurs malvoyants ne pourront pas connaitre la destination du lien,Avoir un titre descriptif pour les lien afin que tout les utilisateur puissent savoir où ils mènent,TRUE,Google lighthouse,8
+Accessibilité,Les label n'ont pas de nom descriptif,Les utilisateurs malvoyants ne pourront pas connaitre le nom du champs a compléter,Avoir un nom descriptif pour les champs a compléter du site,TRUE,Check-list MDN,9
+SEO,Certains document n'ont pas de meta description,Ne pas avoir de méta description nuit au bon réferencement du site,Avoir une meta description pour les document du site,TRUE,Google lighthouse,10
+Performance & accessibilité,Sur la page de contact certaine ressource ne sont pas charger,Toutes les ressources de style ne sont pas charger cela pose probleme dans l agencement et la construction de la page,Rendre toute les ressource accessible lors du chargement du site,TRUE,Google network,11
+SEO,Footer non identiques dans les differentes pages,Les footer des deux pages ne sont pas identiques,Avoir un footer commun pour les differentes pages du site,FALSE,,12
